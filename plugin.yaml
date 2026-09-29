@@ -1,0 +1,7 @@
+name: gemini-image
+version: 1.0.0
+description: "Native Google AI Studio Gemini (Nano Banana) image generation and editing. Calls generativelanguage.googleapis.com directly with your GOOGLE_API_KEY or GEMINI_API_KEY."
+author: "gabbyong (original PR #120851), Semir Kabir (standalone port)"
+kind: backend
+requires_env:
+  - GOOGLE_API_KEY
